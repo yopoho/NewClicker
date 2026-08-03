@@ -25934,7 +25934,7 @@ arO:function arO(){},
 arP:function arP(){},
 Id:function Id(a){this.c=a},
 ZH:function ZH(){},
-aSy(a){var s,r,q,p,o,n,m,l=null,k="monaco_investments_v3_"
+aSy(a){var s,r,q,p,o,n,m,l=null,k="monaco_investments_v4_"
 try{o=k+a
 s=window.localStorage.getItem(o)
 if(s==null)return l
@@ -26023,7 +26023,7 @@ if(m.b===200){h=m
 l=B.a3.bU(0,A.hS(J.a4(A.hQ(h.e).c.a,"charset")).bU(0,h.w))
 h=window.localStorage
 h.toString
-h.setItem("monaco_investments_v3_"+a,B.a3.md(A.Y(["createdAt",Date.now(),"response",l],j,t.K),null))
+h.setItem("monaco_investments_v4_"+a,B.a3.md(A.Y(["createdAt",Date.now(),"response",l],j,t.K),null))
 j=A.aAW(l)
 q=j
 s=1
@@ -87310,7 +87310,7 @@ break}j=t.P
 if(l!=null){i=n.d
 h=window.localStorage
 h.toString
-B.hV.E(h,"monaco_investments_v3_"+i)
+B.hV.E(h,"monaco_investments_v4_"+i)
 n.a0(new A.ao9(n,m))
 A.fp(B.v,new A.aoa(n),j)}else A.fp(B.v,new A.aob(n),j)
 p=2
@@ -87439,7 +87439,7 @@ s=this.a
 r=s.d
 q=window.localStorage
 q.toString
-B.hV.E(q,"monaco_investments_v3_"+r)
+B.hV.E(q,"monaco_investments_v4_"+r)
 s.uD(!0)},
 $S:0}
 A.ao7.prototype={
