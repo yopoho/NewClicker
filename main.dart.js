@@ -86852,7 +86852,7 @@ e=c.d
 return A.qv(b,b,A.ck(B.O,A.b([s,r,new A.dl(B.is,b,b,p,b),o,n,new A.dl(B.ir,b,b,new A.b8(B.FG,A.el(A.b([l,i,h,d,A.dT(c.aeO(a1),!1,!1,!1,!1,e!=null)],q),B.A,B.k3,B.I),b),b)],q),B.p,B.N),!1,!1)},
 abF(){var s=null,r=this.fx,q=A.by(75),p=A.aC(255,B.hi.D()>>>16&255,B.hi.D()>>>8&255,B.hi.D()&255)
 $.a0()
-return new A.xf(A.ed(!1,q,!0,new A.J5(A.ck(B.K,A.b([A.br(s,A.hm(B.ze,new A.eG(40,40,s)),B.n,s,s,new A.bu(p,s,s,s,s,s,B.C),115,s,s,115),A.eA("assets/images/tap_button_euro.png",B.aV,150,150)],t.p),B.p,B.N),s),s,!0,s,s,s,s,s,s,new A.apy(this),s,s,s),r,B.iW,B.ep,s,s)},
+return new A.xf(A.ed(!1,q,!0,new A.J5(A.ck(B.K,A.b([A.br(s,A.hm(B.ze,new A.eG(40,40,s)),B.n,s,s,new A.bu(p,s,s,s,s,s,B.C),105,s,s,105),A.eA("assets/images/tap_button_euro.png",B.aV,150,150)],t.p),B.p,B.N),s),s,!0,s,s,s,s,s,s,new A.apy(this),s,s,s),r,B.iW,B.ep,s,s)},
 abo(a){var s,r,q=null,p=A.by(12),o=A.by(12)
 $.a0()
 s=A.hm(A.br(q,q,B.n,A.aC(89,B.h.D()>>>16&255,B.h.D()>>>8&255,B.h.D()&255),q,q,62,q,q,62),new A.eG(4.5,4.5,q))
