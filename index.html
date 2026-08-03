@@ -33,6 +33,13 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script>
+    // Flutter Web normally downloads missing-glyph fallback fonts from
+    // fonts.gstatic.com. Keep every fallback lookup inside this bundle instead.
+    window.flutterConfiguration = {
+      fontFallbackBaseUrl: 'assets/font_fallback/'
+    };
+  </script>
   <script src="flutter_bootstrap.js" async></script>
   <div></div>
 </body>
