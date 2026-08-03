@@ -25231,7 +25231,7 @@ av9(){var s=0,r=A.D(t.H),q,p
 var $async$av9=A.E(function(a,b){if(a===1)return A.A(b,r)
 while(true)switch(s){case 0:q=document
 p=q.createElement("script")
-p.src="https://telegram.org/js/telegram-web-app.js?56"
+p.src="telegram-web-app.js"
 p.type="application/javascript"
 p.async=!0
 q=q.head
@@ -25241,12 +25241,16 @@ return A.F(new A.DT(p,"load",!1,t.rE).gT(0),$async$av9)
 case 2:A.bf("Telegram Web App SDK loaded!")
 return A.B(null,r)}})
 return A.C($async$av9,r)},
-auJ(){var s=0,r=A.D(t.H)
+auJ(){var s=0,r=A.D(t.H),q,p
 var $async$auJ=A.E(function(a,b){if(a===1)return A.A(b,r)
-while(true)switch(s){case 0:s=2
+while(true)switch(s){case 0:p=$.rA()
+if(p.h(0,"MonacoNative")!=null){s=1
+break}s=p.h(0,"Telegram")==null?3:4
+break
+case 3:s=5
 return A.F(A.av9(),$async$auJ)
-case 2:J.a4($.rA().h(0,"Telegram"),"WebApp").kK("disableVerticalSwipes")
-return A.B(null,r)}})
+case 5:case 4:J.a4(p.h(0,"Telegram"),"WebApp").kK("disableVerticalSwipes")
+case 1:return A.B(q,r)}})
 return A.C($async$auJ,r)},
 Z1(){var s=0,r=A.D(t.H),q=1,p=[],o,n,m,l,k,j,i,h,g,f
 var $async$Z1=A.E(function(a,b){if(a===1){p.push(b)
