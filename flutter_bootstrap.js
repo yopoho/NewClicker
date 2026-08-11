@@ -43,6 +43,6 @@ _flutter.loader.load({
     fontFallbackBaseUrl: 'assets/font_fallback/',
   },
   serviceWorkerSettings: {
-    serviceWorkerVersion: "2683590881",
+    serviceWorkerVersion: "2274126049",
   },
 });
