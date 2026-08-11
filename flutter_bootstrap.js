@@ -38,7 +38,11 @@ _flutter.buildConfig = {"engineRevision":"109150893958777c8f2215f6cfd3e89e984e8d
 
 
 _flutter.loader.load({
+  config: {
+    // Keep fallback font requests in this bundle instead of fonts.gstatic.com.
+    fontFallbackBaseUrl: 'assets/font_fallback/',
+  },
   serviceWorkerSettings: {
-    serviceWorkerVersion: "947073260"
-  }
+    serviceWorkerVersion: "3154840383",
+  },
 });
