@@ -25258,7 +25258,7 @@ var $async$Z3=A.E(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:q=3
 if($.a8==null)A.aDn()
 $.a8.toString
-if($.oC().h(0,"MonacoNative")==null)A.bf("Monaco web build: 2026.08.11-1335")
+if($.oC().h(0,"MonacoNative")==null)A.bf("Monaco web build: 2026.08.11-1342")
 s=6
 return A.J($.fi().qN(),$async$Z3)
 case 6:s=7
