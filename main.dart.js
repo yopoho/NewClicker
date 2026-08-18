@@ -25266,7 +25266,7 @@ var $async$Z5=A.F(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:q=3
 if($.a8==null)A.aDw()
 $.a8.toString
-if($.kJ().h(0,"MonacoNative")==null)A.bf("Monaco web build: 2026.08.18-2252")
+if($.kJ().h(0,"MonacoNative")==null)A.bf("Monaco web build: 2026.08.19-0053")
 s=6
 return A.A($.fi().oh(),$async$Z5)
 case 6:s=7
@@ -87734,20 +87734,18 @@ if(typeof a=="number")s=B.d.bA(a)
 else{s=a==null?null:J.cN(a)
 s=A.j5(s==null?"":s,null)
 if(s==null)s=0}return s},
-HF(a){var s,r=new A.a75(),q=new A.a74(),p=Math.abs(a),o=a<0?"-":""
-if(p>=1e18&&p<1e19)s=A.k(r.$1(B.d.a7(p/1e18,2)))+"Qi"
-else if(p>=1e19&&p<1e20)s=A.k(r.$1(B.d.a7(p/1e18,1)))+"Qi"
-else if(p>=1e20)s=A.k(q.$1(B.e.ca(p,1e18)))+"Qi"
-else if(p>=1e15&&p<1e16)s=A.k(r.$1(B.d.a7(p/1e15,2)))+"Q"
-else if(p>=1e16&&p<1e17)s=A.k(r.$1(B.d.a7(p/1e15,1)))+"Q"
-else if(p>=1e17)s=A.k(q.$1(B.e.ca(p,1e15)))+"Q"
-else if(p>=1e12&&p<1e13)s=A.k(r.$1(B.d.a7(p/1e12,2)))+"T"
-else if(p>=1e13&&p<1e14)s=A.k(r.$1(B.d.a7(p/1e12,1)))+"T"
-else if(p>=1e14)s=A.k(q.$1(B.e.ca(p,1e12)))+"T"
-else s=p>=1e9?A.k(q.$1(B.e.ca(p,1e9)))+"B":q.$1(p)
-A.bf("original:"+a)
+HF(a){var s,r,q=new A.a75(),p=new A.a74(),o=Math.abs(a),n=a<0?"-":""
+if(o>=1e18&&o<1e19)s=A.k(q.$1(B.d.a7(o/1e18,1)))+"Qi"
+else if(o>=1e19)s=A.k(p.$1(B.e.ca(o,1e18)))+"Qi"
+else if(o>=1e15&&o<1e16)s=A.k(q.$1(B.d.a7(o/1e15,1)))+"Q"
+else if(o>=1e16)s=A.k(p.$1(B.e.ca(o,1e15)))+"Q"
+else if(o>=1e12&&o<1e13)s=A.k(q.$1(B.d.a7(o/1e12,1)))+"T"
+else if(o>=1e13)s=A.k(p.$1(B.e.ca(o,1e12)))+"T"
+else{r=o>=1e9
+if(r&&o<1e10)s=A.k(q.$1(B.d.a7(o/1e9,1)))+"B"
+else s=r?A.k(p.$1(B.e.ca(o,1e9)))+"B":p.$1(o)}A.bf("original:"+a)
 A.bf("formated:"+s)
-return o+s},
+return n+s},
 afV(){var s=this,r=(s.w+1)%4
 s.w=r
 switch(r){case 1:s.x="\u0414\u043e\u0445\u043e\u0434 \u25be"
