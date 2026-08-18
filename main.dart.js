@@ -25266,7 +25266,7 @@ var $async$Z5=A.F(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:q=3
 if($.a8==null)A.aDw()
 $.a8.toString
-if($.kJ().h(0,"MonacoNative")==null)A.bf("Monaco web build: 2026.08.18-2229")
+if($.kJ().h(0,"MonacoNative")==null)A.bf("Monaco web build: 2026.08.18-2252")
 s=6
 return A.A($.fi().oh(),$async$Z5)
 case 6:s=7
@@ -85523,7 +85523,7 @@ A.a_1.prototype={
 oh(){var s=0,r=A.E(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e
 var $async$oh=A.F(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:k=o.d,j=o.a,i=0
-case 2:if(!(i<12)){s=4
+case 2:if(!(i<13)){s=4
 break}n=k[i]
 if(j.ak(0,n)){s=3
 break}m=A.azV()
@@ -88479,8 +88479,8 @@ break
 case 6:case 1:return A.C(q,r)
 case 2:return A.B(o.at(-1),r)}})
 return A.D($async$xP,r)},
-pC(){var s=0,r=A.E(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4
-var $async$pC=A.F(function(c5,c6){if(c5===1){o.push(c6)
+pC(){var s=0,r=A.E(t.H),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5
+var $async$pC=A.F(function(c6,c7){if(c6===1){o.push(c7)
 s=p}while(true)switch(s){case 0:if(n.z){s=1
 break}n.Y(new A.as1(n))
 j=$.fi()
@@ -88493,7 +88493,7 @@ f=t.N
 e=t.z
 s=3
 return A.A(A.oB(h.ka(0,A.X(["function","getSlotSpin","token",g,"timestamp",i],f,e))),$async$pC)
-case 3:d=c6
+case 3:d=c7
 g=t.a
 c=g.a(B.a3.bU(0,A.hT(J.a4(A.hR(d.e).c.a,"charset")).bU(0,d.w)))
 h=J.ax(c)
@@ -88519,47 +88519,50 @@ if(n.c==null){n.CT(!1)
 s=1
 break}a5=a0.gT(a0)
 a6=a0.d3(a0,new A.as3(a5))
-a7=a6&&a5==="\ud83d\udd14"
-if(a6)a8=a5==="\u2b50"||a5==="\ud83d\udc8e"
-else a8=!1
-if(a8)a9="assets/audio/slots_spin_jackpot.mp3"
-else a9=a7?"assets/audio/slots_spin_bells.mp3":"assets/audio/slots_spinning.mp3"
-j.dR(0,a9)
-b0=A.b([],t.RD)
-for(j=t.JP,h=t.hy,b1=t.Vc,b2=n.w,a=a.y[1],b3=0;b3<3;b3=c2){b4=n.y
-b4===$&&A.a()
-b5=b4[b3]
-b4=b5.f
-b6=j.a(B.b.gbZ(b4))
-b7=b6.at
-b7.toString
-b8=h.a(b6.w).a
+if(a6)a7=a5==="\ud83c\udf52"||a5==="\ud83c\udf4b"
+else a7=!1
+a8=a6&&a5==="\ud83d\udd14"
+if(a6)a9=a5==="\u2b50"||a5==="\ud83d\udc8e"
+else a9=!1
+if(a9)b0="assets/audio/slots_spin_jackpot.mp3"
+else if(a8)b0="assets/audio/slots_spin_bells.mp3"
+else{h=a7?"assets/audio/slots_spin_small_win.mp3":"assets/audio/slots_spinning.mp3"
+b0=h}j.dR(0,b0)
+b1=A.b([],t.RD)
+for(j=t.JP,h=t.hy,b2=t.Vc,b3=n.w,a=a.y[1],b4=0;b4<3;b4=c3){b5=n.y
+b5===$&&A.a()
+b6=b5[b4]
+b5=b6.f
+b7=j.a(B.b.gbZ(b5))
+b8=b7.at
 b8.toString
-b1.a(b8)
-b9=b6.z
+b9=h.a(b7.w).a
 b9.toString
-c0=b6.Q
+b2.a(b9)
+c0=b7.z
 c0.toString
-c1=B.e.b9(B.e.b9(B.d.aD(Math.min(Math.max(b7,b9),c0)/b8.ay),5)-B.b.fF(b2,a.a(g[b3]))+5,5)
-c2=b3+1
-b6=j.a(B.b.gbZ(b4))
-b4=b6.at
-b4.toString
-b8=h.a(b6.w).a
-b8.toString
-b1.a(b8)
-c0=b6.z
-c0.toString
-b9=b6.Q
+c1=b7.Q
+c1.toString
+c2=B.e.b9(B.e.b9(B.d.aD(Math.min(Math.max(b8,c0),c1)/b9.ay),5)-B.b.fF(b3,a.a(g[b4]))+5,5)
+c3=b4+1
+b7=j.a(B.b.gbZ(b5))
+b5=b7.at
+b5.toString
+b9=h.a(b7.w).a
 b9.toString
-b0.push(b5.yK(B.d.aD(Math.min(Math.max(b4,c0),b9)/b8.ay)-(11*c2*5+c1),B.mX,new A.aB(1000*(b3*700+2500))))}s=4
-return A.A(A.iS(b0,e),$async$pC)
+b2.a(b9)
+c1=b7.z
+c1.toString
+c0=b7.Q
+c0.toString
+b1.push(b6.yK(B.d.aD(Math.min(Math.max(b5,c1),c0)/b9.ay)-(11*c3*5+c2),B.mX,new A.aB(1000*(b4*700+2500))))}s=4
+return A.A(A.iS(b1,e),$async$pC)
 case 4:n.a4L()
 if(n.c==null){s=1
 break}s=a1>0?5:7
 break
 case 5:m=A.X(["\ud83c\udf52","assets/audio/slots_win_small.mp3","\ud83c\udf4b","assets/audio/slots_win_small.mp3"],f,f).h(0,a5)
-s=!a8&&!a7&&a6&&m!=null?8:9
+s=!a9&&!a8&&!a7&&a6&&m!=null?8:9
 break
 case 8:p=11
 s=14
@@ -88569,9 +88572,9 @@ p=2
 s=13
 break
 case 11:p=10
-c4=o.pop()
-l=A.ae(c4)
-k=A.aR(c4)
+c5=o.pop()
+l=A.ae(c5)
+k=A.aR(c5)
 A.rC().$1("Failed to play slot win sound: "+A.k(l))
 A.ayJ(null,null,k)
 s=13
@@ -96130,7 +96133,7 @@ s($,"aVz","fi",()=>{var q,p=A.azU()
 p.preload="auto"
 q=A.azU()
 q.preload="auto"
-return new A.a_1(A.x(t.N,A.az("xv")),p,q,A.b(["assets/audio/audio_difichento.mp3","assets/audio/audio_ti_kto_takoi.mp3","assets/audio/audio_rot_kazino.mp3","assets/audio/audio_bullshit.mp3","assets/audio/audio_tvoi_rot.mp3","assets/audio/audio_ti_bredish.mp3","assets/audio/audio_v_drugom_poradke.mp3","assets/audio/slots_spinning.mp3","assets/audio/slots_spin_bells.mp3","assets/audio/slots_spin_jackpot.mp3","assets/audio/slots_win_small.mp3","assets/audio/slots_win_jackpot.mp3"],t.s))})
+return new A.a_1(A.x(t.N,A.az("xv")),p,q,A.b(["assets/audio/audio_difichento.mp3","assets/audio/audio_ti_kto_takoi.mp3","assets/audio/audio_rot_kazino.mp3","assets/audio/audio_bullshit.mp3","assets/audio/audio_tvoi_rot.mp3","assets/audio/audio_ti_bredish.mp3","assets/audio/audio_v_drugom_poradke.mp3","assets/audio/slots_spinning.mp3","assets/audio/slots_spin_small_win.mp3","assets/audio/slots_spin_bells.mp3","assets/audio/slots_spin_jackpot.mp3","assets/audio/slots_win_small.mp3","assets/audio/slots_win_jackpot.mp3"],t.s))})
 s($,"b_J","aw2",()=>new A.Bq(A.x(A.az("cP<@>"),A.az("b0<lI>")),A.az("Bq<cP<@>>")))
 s($,"b_g","avZ",()=>A.aM2(null,t.uK))
 s($,"aZN","aID",()=>A.kn().giL().h(0,"openChat")==="1")
